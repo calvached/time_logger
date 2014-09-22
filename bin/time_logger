@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'dashboard'
+require 'database'
+require 'input_output'
+
+files = {
+          users_file: 'data/employees.csv',
+          clients_file: 'data/clients.csv',
+        }
+
+dashboard = Dashboard.new(Database.new(files), MyIO.new)
+dashboard.run
