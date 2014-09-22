@@ -1,7 +1,9 @@
-username
-carlsagan
-oscarwilde
-alexanderhamilton
-harryhoudini
-annerice
-joehill
+username,status_code
+carlsagan,employee
+oscarwilde,employee
+alexanderhamilton,employee
+catlady,admin
+harryhoudini,employee
+annerice,employee
+joehill,employee
+calvached,admin
