@@ -1,7 +1,7 @@
-class Admin
-  attr_reader :username
+require 'employee'
 
-  def initialize(username)
-    @username = username
+class Admin < Employee
+  def initialize(username, status_code)
+    super(username, status_code)
   end
 end
