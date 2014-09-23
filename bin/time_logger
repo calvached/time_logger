@@ -8,6 +8,9 @@ require 'input_output'
 files = {
           users_file: 'data/employees.csv',
           clients_file: 'data/clients.csv',
+          pto_file: 'data/pto.csv',
+          billable_file: 'data/billable.csv',
+          nonbillable_file: 'data/non_billable.csv',
         }
 
 dashboard = Dashboard.new(Database.new(files), MyIO.new)
