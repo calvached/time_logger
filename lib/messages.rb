@@ -1,7 +1,7 @@
 class Messages
   ENTER_USERNAME = 'Enter Username: '
 
-  MAKE_SELECTION = "Select an option: "
+  MAKE_SELECTION = "Make a selection: "
 
   INPUT_DATE = 'Input date (eg. dd/mm/yyyy): '
 
@@ -12,12 +12,4 @@ class Messages
   INVALID_SELECTION = "Invalid selection. Try again.\n\n"
 
   NOT_FOUND = "Command Invalid. Try again.\n\n"
-
-  CLIENT_HEADER = "Client List\n"
-
-  CLIENT_FOOTER = 'Select a client: '
-
-  def self.format_client(client_name, index)
-    "#{index + 1}. #{client_name}"
-  end
 end
