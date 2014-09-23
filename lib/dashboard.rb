@@ -52,11 +52,6 @@ class Dashboard
     #maybe send a hash of validations
     #validations = { 'regex' => /\d/, 'status_code' => status_code }
     user_input = io.selection_prompt(Messages::MAKE_SELECTION, 'regex', /\d/)
-
-    if status_code == 'admin'
-      user_input
-    else
-    end
   end
 
   def database
